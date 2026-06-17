@@ -20,10 +20,14 @@ related data files as embedded resources referenced by
 
 ```mermaid
 flowchart LR
-  unicode["SpocWeb.Unicode\n(resource project)"]
-  text["SpocWeb.Text\nSpocWeb.Text.data.text.Unicode"]
-  locales["per-locale folders\n(~80 language sub-folders)"]
-  icons["_Icons/\nEmoji & symbol data"]
+  unicode["SpocWeb.Unicode
+    (resource project)"]
+  text["SpocWeb.Text
+    SpocWeb.Text.data.text.Unicode"]
+  locales["per-locale folders
+    (~80 language sub-folders)"]
+  icons["_Icons/
+    Emoji & symbol data"]
 
   locales --> unicode
   icons --> unicode
